@@ -9,5 +9,11 @@ export const tasks = [
         id: 2,
         title: 'Comprar curso sass',
         done : true
+    },
+
+    {
+        id: 3,
+        title: 'Lavar ropa',
+        done : true
     }
 ]

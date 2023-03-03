@@ -6,7 +6,9 @@
 }
 
 
-/* .App{
+.App{
   background-color: #213547;
   color: aliceblue;
-} */
+  padding: 15px;
+  border-radius: 15px;
+}
