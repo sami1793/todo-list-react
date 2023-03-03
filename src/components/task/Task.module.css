@@ -1,0 +1,62 @@
+.taskItem{
+    display: flex;
+    align-items: center;
+    width: auto;/*para que se adapte al largo de la task*/
+    height: 50px;
+    overflow: hidden;  
+}
+
+.taskName{
+    background-color: #eaeaea;
+    color: darkslategray;
+    font-size: 1.5rem;
+    height: 100%;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-grow: 1;
+    overflow-wrap: break-word;
+}
+
+.completedButton{
+    background-color: #009788;
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px;
+    height: 100%;
+}
+
+.completedButton:hover {
+    color: #009788;
+    background-color: #eaeaea;
+    border: solid #009788;
+} 
+
+.deletedButton{
+    background-color: #f00c2b;
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px;
+    height: 100%;
+}
+
+.deletedButton:hover {
+    color: #f00c2b;
+    background-color: #eaeaea;
+    box-shadow: 
+    inset 1px 1px 4px #f00c2b,
+    inset -1px -1px 4px #f00c2b;
+    /* border: solid #f00c2b; */
+
+} 
+
+.fa-check{
+    color: white;
+    background-color: #009788;
+    font-size: 1rem;
+
+}
+.fa-trash{
+    color: white;
+    background: rgb(231, 32, 32);
+}
