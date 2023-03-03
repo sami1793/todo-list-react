@@ -14,6 +14,12 @@ export const tasks = [
     {
         id: 3,
         title: 'Lavar ropa',
-        done : true
+        done : false
+    },
+
+    {
+        id: 4,
+        title: 'Prueba',
+        done : false
     }
 ]
