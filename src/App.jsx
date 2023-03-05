@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Todo List</h1>
+      <h1>To Do List</h1>
       <Form />
       <TasksList />
 

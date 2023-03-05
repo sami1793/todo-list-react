@@ -1,5 +1,6 @@
 .taskItem{
     display: flex;
+    gap: 10px;
     align-items: center;
     width: auto;/*para que se adapte al largo de la task*/
     height: 50px;
@@ -18,23 +19,42 @@
     overflow-wrap: break-word;
 }
 
+.checkedLine {
+    text-decoration: line-through;
+    
+}
+
 .completedButton{
-    background-color: #009788;
+    background-color:#f26e79;
     color: white;
     font-size: 1.5rem;
     padding: 10px;
     height: 100%;
 }
 
-.completedButton:hover {
-    color: #009788;
-    background-color: #eaeaea;
-    border: solid #009788;
-} 
+.completedButton:hover{
+    /* color: #f26e79; */
+    /* text-decoration: line-through; */
+}
+
+.completedButtonNoCheck{
+    background-color:#f26e79;
+    color: #f26e79;
+    font-size: 1.5rem;
+    padding: 10px;
+    height: 100%;
+}
+
+.completedButtonNoCheck:hover{
+    /* color: white; */
+    /* text-decoration: line-through; */
+}
+
 
 .deletedButton{
-    background-color: #f00c2b;
-    color: white;
+    background-color: white;
+    color: #b42d2d;
+    border: none;
     font-size: 1.5rem;
     padding: 10px;
     height: 100%;
@@ -42,21 +62,13 @@
 
 .deletedButton:hover {
     color: #f00c2b;
-    background-color: #eaeaea;
-    box-shadow: 
+    /* box-shadow: 
     inset 1px 1px 4px #f00c2b,
-    inset -1px -1px 4px #f00c2b;
+    inset -1px -1px 4px #f00c2b; */
     /* border: solid #f00c2b; */
 
 } 
 
-.fa-check{
-    color: white;
-    background-color: #009788;
-    font-size: 1rem;
-
-}
-.fa-trash{
-    color: white;
-    background: rgb(231, 32, 32);
+.visibilityHidden{
+    visibility: hidden;
 }

@@ -1,0 +1,15 @@
+form{
+    display: flex;
+    justify-content: center;
+}
+
+form input{
+    background-color: #eaeaea;
+    color: darkslategray;
+}
+
+button{
+    background-color: #f26e79;
+    color: white;
+    padding: 5px;
+}

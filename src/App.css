@@ -6,8 +6,9 @@
 
 
 .App{
-  background-color: #213547;
-  color: aliceblue;
+  background-color: white;
+  color: #f26e79;
   padding: 15px;
+  border: solid 2px black;
   border-radius: 15px;
 }
